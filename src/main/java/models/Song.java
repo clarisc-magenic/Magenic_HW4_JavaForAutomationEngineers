@@ -8,7 +8,6 @@ public class Song implements Comparable<Song> {
      * The name of the song
      */
     private String name;
-
     /**
      * The name of the artist
      */
@@ -115,7 +114,7 @@ public class Song implements Comparable<Song> {
      * @param args The array of arguments
      */
     public static void main(String[] args) {
-        Song songOne = new Song("NameOne", "ArtOne");
+        Song songOne = new Song("Baby", "Justin Bieber");
         Song songTwo = new Song("NameTwo", "ArtTwo");
         Song dupe = new Song("NameOne", "ArtOne");
 

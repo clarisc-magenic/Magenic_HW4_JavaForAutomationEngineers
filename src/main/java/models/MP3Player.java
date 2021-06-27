@@ -225,7 +225,7 @@ public class MP3Player {
             currentlyPlaying = song;
             System.out.println("CURRENTLY PLAYING: " + song);
 
-            // Displays the playing options menu and deceivers the users choice
+            // Displays the playing options menu and receives the users choice
             int userChoice = UserHelperMethods.displayOptionsAndWaitForValidOption(OptionStrings.PLAYING_OPTIONS);
             String userChoiceText = OptionStrings.PLAYING_OPTIONS[userChoice];
 
@@ -315,14 +315,14 @@ public class MP3Player {
         // Adds song to the playlist, some of which are brand new to the MP3 Player
         mp3.songDatabase.addSongToPlaylist(new Song("Like a Rolling Stone", "Bob Dylan"), seededPlaylist);
         mp3.songDatabase.addSongToPlaylist(new Song("(I Can't Get No) Satisfaction", "The Rolling Stones"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Imagine", "John Lennon"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("What's Going On", "Marvin Gaye"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Respect", "Aretha Franklin"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Good Vibrations", "The Beach Boys"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Johnny B. Goode", "Chuck Berry"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Hey Jude", "The Beatles"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("Smells Like Teen Spirit", "Nirvana"), seededPlaylist);
-        mp3.songDatabase.addSongToPlaylist(new Song("What'd I Say", "Ray Charles"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Imagine", "John Lennon"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("What's Going On", "Marvin Gaye"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Respect", "Aretha Franklin"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Good Vibrations", "The Beach Boys"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Johnny B. Goode", "Chuck Berry"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Hey Jude", "The Beatles"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("Smells Like Teen Spirit", "Nirvana"), seededPlaylist);
+//        mp3.songDatabase.addSongToPlaylist(new Song("What'd I Say", "Ray Charles"), seededPlaylist);
 
         // Starts the application by opening the main menu
         mp3.mainMenu();

@@ -19,23 +19,27 @@ TEST TASKS:
 SHORT ANSWERS:
     // TODO FOR HOMEWORK: Answer each question, and note many don't have a 'right answer' so just answer honestly
     [ ] The MP3Player is a console application, what features do you wish were added?
-        // ANSWER HERE:
+        // ANSWER HERE: search for a song
 
     [ ] Pick any feature you mentioned in the last question. Do you think you could implement that feature with your current knowledge? If yes explain the basic thought processing of adding that feature, if not explain why.
-        // ANSWER HERE:
+        // ANSWER HERE: Add "Search Song" options to main menu options, add condition to mainMenu() method
+        for the option. Add new method for the implementation of search for song. use getInputFromPrompt()
+        to get the search term. Get songArchive and select the song based on the input and play. then back to mainMenu().
 
     [ ] What is a loop?
-        // ANSWER HERE:
+        // ANSWER HERE: loop is execution of actions or function of the program repeatedly based on the given
+        condition
 
     [ ] Write what each of these loops does in your own words:
-        // FOR LOOP:
-        // WHILE LOOP:
-        // DO WHILE:
+        // FOR LOOP: for loop perform functions based on a given number of iteration
+        // WHILE LOOP: while loop executes the program instruction repeatedly based on the given condition
+        // DO WHILE: it is the same with while loop, but it is used if you need to execute a code at least
+        once before execution of while loop with set of condition
 
     [ ] Why were 'infinite loops' used in this project? (See UserHelperMethods.displayOptionsAndWaitForValidOption(String[] options) for a reference)
-        // ANSWER HERE:
+        // ANSWER HERE: To make that the program will not end immediately until the user select a valid option
 
     [ ] This project has 3 packages (models, resources, and utils). Describe each one.
-        // MODELS:
-        // RESOURCES:
-        // UTILS:
+        // MODELS: models contains the functionality of the system
+        // RESOURCES: resources contains static strings
+        // UTILS: contains methods that can be use/re-use in the whole system
